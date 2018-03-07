@@ -1,4 +1,8 @@
 <?php
-    echo('test_2');
-    echo('testtesttesttesttesttest_2');
+    namespace t2;
+    class Test {
+    public function get_test() {
+        return 'test_2';
+    }
+}
 ?>

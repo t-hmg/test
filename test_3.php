@@ -1,5 +1,7 @@
 <?php
-    echo('TEST_3');
-    echo('@@@@@@@@@@');
-    echo('**********');
+    class Test {
+    public function get_test() {
+        return 'test_3';
+    }
+}
 ?>
